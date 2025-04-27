@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Metaetiquetas básicas -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- Título de la página -->
+    <title>About - CoType Foundry</title>
+    
+    <!-- Vinculación de CSS -->
+    <link rel="stylesheet" href="css/about.css">
+    
+    <!-- Favicon -->
+    <link rel="icon" href="css/RECURSOS/Cotype-Favicon.png">
+    
+    <!-- Vinculación de JavaScript -->
+    <script src="js/about.js" defer></script>
+</head>
+
+<body>
+
+    <!-- Header de navegación -->
+    <header class="header">
+        <div class="header-Menu">
+            <div class="header-Menu--wrapper">
+
+                <!-- Botón de menú hamburguesa -->
+                <div class="header-Menu--Hamburguesa">
+                    <button class="header-Menu--Hamburguesa--boton" title="Open menu">
+                        <svg class="svg-Hamburguesa" xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="black" viewBox="0 0 16 16">
+                            <path fill-rule="evenodd" d="..."/>
+                        </svg>
+                    </button>
+
+                    <!-- Navegación -->
+                    <nav class="nav">
+                        <button class="nav-cierre" title="Close menu">
+                            <svg class="nav-cierre--cruz" xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="black" viewBox="0 0 16 16">
+                                <path d="..."/>
+                            </svg>
+                        </button>
+                        
+                        <ul class="nav-ul">
+                            <li><a href="index.html" class="links" title="Our fonts page">Our fonts</a></li>
+                            <li><a href="subscribe.html" class="links" title="Subscribe to updates">Subscribe</a></li>
+                            <li><a href="about.html" class="links" title="Learn about us">About Us</a></li>
+                        </ul>
+                    </nav>
+                </div>
+
+                <!-- Logo principal -->
+                <div class="header-Menu--logo">
+                    <a href="index.html" class="header-Menu--logo-link" title="Home">
+                        <img src="css/RECURSOS/image.avif" alt="Cotype logo" width="20%">
+                    </a>
+                </div>
+
+                <!-- Botón de carrito -->
+                <button class="header-Menu--checkout" title="Checkout">
+                    <svg class="checkout-cart" xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="black" viewBox="0 0 16 16">
+                        <path d="..."/>
+                    </svg>
+                </button>
+
+            </div>
+        </div>
+    </header>
+
+    <!-- Contenido principal -->
+    <main class="Body">
+
+        <!-- Sección de título -->
+        <section class="Body-titulo">
+            <h1 class="titulo">About</h1>
+        </section>
+
+        <!-- Sección de contenido -->
+        <section class="contenido">
+            <article class="parrafo">
+                <p class="contenido-parrafo">CoType is the London based type foundry of Mark Bloom and Co.</p>
+                <p class="contenido-parrafo">We design contemporary typefaces for use in digital and print applications. In addition to our retail offerings, we also offer design of bespoke typefaces and modifications of our existing font library.</p>
+                <p class="contenido-parrafo">All of our typefaces support Latin Extended-A, Western European, Central European & Southeastern European languages. We also offer free trials across our entire font library, allowing you to try before you buy.</p>
+                <p class="contenido-parrafo">If you’d like to discuss a potential project or have any questions, please get in touch: <a class="correo" href="mailto:info@cotypefoundry.com" title="Send email to CoType Foundry">info@cotypefoundry.com</a></p>
+            </article>
+
+            <div class="copy">
+                <p class="contenido-web">Web creada por Isabel Sedeño</p>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- Sección de clientes -->
+    <section class="clientes">
+        <header class="titulo-clientes">
+            <h2 class="clientes">Some of our clients</h2>
+        </header>
+
+        <div class="marcas">
+            <!-- Cada empresa representada en su propio <article> -->
+            <article class="empresas">
+                <picture>
+                    <source srcset="https://cotypefoundry.com/wp-content/uploads/2021/06/Virgin-Hyperloop-large.png" type="image/png">
+                    <img src="https://cotypefoundry.com/wp-content/uploads/2021/06/Virgin-Hyperloop-large.png" alt="hyperloop" class="logo" width="100%" loading="lazy">
+                </picture>
+            </article>
+            
+
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>© 2025 CoType Foundry</p>
+    </footer>
+
+</body>
+</html>

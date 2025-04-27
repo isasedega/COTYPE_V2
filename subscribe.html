@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Suscríbete a CoType Foundry y recibe noticias exclusivas sobre nuestras tipografías.">
+    <meta name="author" content="CoType Foundry">
+    <meta name="robots" content="index, follow">
+    <title>Subscribe - CoType Foundry</title>
+    <link rel="stylesheet" href="css/subscribe.css">
+    <link rel="icon" href="css/RECURSOS/Cotype-Favicon.png">
+    <script src="js/subscribe.js" defer></script>
+</head>
+<body>
+
+<header class="header">
+    <div class="header-Menu">
+        <div class="header-Menu--wrapper">
+            <div class="header-Menu--Hamburguesa">
+                <button class="header-Menu--Hamburguesa--boton" title="Abrir menú">
+                    <svg class="svg-Hamburguesa" xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" viewBox="0 0 16 16">
+                        <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5"/>
+                    </svg>
+                </button>
+
+                <nav class="nav">
+                    <button class="nav-cierre" title="Cerrar menú">
+                        <svg class="nav-cierre--cruz" xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" viewBox="0 0 16 16">
+                            <path d="M4.646 4.646a.5.5 0 0 1 .708 0L8 7.293l2.646-2.647a.5.5 0 0 1 .708.708L8.707 8l2.647 2.646a.5.5 0 0 1-.708.708L8 8.707l-2.646 2.647a.5.5 0 0 1-.708-.708L7.293 8 4.646 5.354a.5.5 0 0 1 0-.708"/>
+                        </svg>
+                    </button>
+
+                    <ul class="nav-ul">
+                        <li><a href="index.html" class="links" title="Our Fonts">Our fonts</a></li>
+                        <li><a href="subscribe.html" class="links" title="Subscribe">Subscribe</a></li>
+                        <li><a href="about.html" class="links" title="About Us">About Us</a></li>
+                    </ul>
+                </nav>
+            </div>
+
+            <div class="header-Menu--logo">
+                <a href="index.html" class="header-Menu--logo-link" title="Inicio">
+                    <picture>
+                        <source srcset="css/RECURSOS/image.avif" type="image/avif">
+                        <img src="css/RECURSOS/image.avif" alt="CoType Logo" width="20%" loading="lazy">
+                    </picture>
+                </a>
+            </div>
+
+            <button class="header-Menu--checkout" title="Ver carrito">
+                <svg class="checkout-cart" xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" viewBox="0 0 16 16">
+                    <path d="M0 2.5A.5.5 0 0 1 .5 2H2a.5.5 0 0 1 .485.379L2.89 4H14.5a.5.5 0 0 1 .485.621l-1.5 6A.5.5 0 0 1 13 11H4a.5.5 0 0 1-.485-.379L1.61 3H.5a.5.5 0 0 1-.5-.5M3.14 5l1.25 5h8.22l1.25-5zM5 13a1 1 0 1 0 0 2 1 1 0 0 0 0-2m-2 1a2 2 0 1 1 4 0 2 2 0 0 1-4 0m9-1a1 1 0 1 0 0 2 1 1 0 0 0 0-2m-2 1a2 2 0 1 1 4 0 2 2 0 0 1-4 0"/>
+                </svg>
+            </button>
+
+        </div>
+    </div>
+</header>
+
+<main class="main">
+    <div class="main-descripcion">
+        <h1 class="main-descripcion-titulo">Suscríbete</h1>
+        <p class="main-descripcion-texto">Suscríbete para recibir las últimas noticias y novedades sobre nuestros tipos de letra, productos y colaboraciones. Prometemos no bombardearte con correos electrónicos, solo con actualizaciones ocasionales que esperamos que te resulten interesantes.</p>
+        <p class="main-descripcion-texto final">
+            También puedes seguirnos en 
+            <a class="Instagram" href="https://www.instagram.com/cotypefoundry/" target="_blank" rel="noopener noreferrer" title="Síguenos en Instagram">Instagram</a> 
+            y 
+            <a class="X" href="https://x.com/cotypefoundry?mx=2" target="_blank" rel="noopener noreferrer" title="Síguenos en Twitter/X">Twitter</a>.
+        </p>
+    </div>
+
+    <div class="main-form">
+        <form class="main-form-form" action="subscribe.php" method="post">
+            <input type="text" class="Inputname" id="Inputname" name="nombre_completo" placeholder="Nombre completo*" autocomplete="off" required>
+            <input type="email" class="Inputemail" id="Inputemail" name="email" placeholder="Email*" autocomplete="off" required>
+            
+            <div class="checkbox-email">
+                <input type="checkbox" class="checkbox" id="checkbox1" name="consentimiento_correos" required>
+                <label for="checkbox1">Doy mi consentimiento para recibir correos electrónicos</label>
+            </div>
+
+            <div class="checkbox-seguimiento">
+                <input type="checkbox" class="checkbox" id="checkbox2" name="seguimiento_correos" required>
+                <label for="checkbox2">Doy mi consentimiento para que se realice un seguimiento de mi actividad de correo electrónico</label>
+            </div>
+
+            <button class="boton-rellene" title="Formulario de suscripción incompleto">
+                Rellene sus datos y acepte nuestras condiciones
+            </button>
+
+            <button class="boton-suscribirse completo" type="submit" onclick="activo()" title="Enviar suscripción">
+                Suscribirse
+            </button>
+        </form>
+    </div>
+</main>
+
+</body>
+</html>

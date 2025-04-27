@@ -1,0 +1,351 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <!-- Etiquetas meta necesarias -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Descripción de la página">
+    <meta name="author" content="CoType">
+    <meta name="keywords" content="tipografía, Aeonik, fono, fuentes">
+    <meta name="robots" content="index, follow">
+    
+    <!-- Título de la página -->
+    <title>Aeonik Pro</title>
+    
+    <!-- Vinculación de la hoja de estilos -->
+    <link rel="stylesheet" href="css/aeeonikpro.css">
+
+    <!-- Vinculación de JAVA -->
+    <script src="js/locksherif.js" defer></script>
+
+     <!-- Favicon -->
+    <link rel="icon" href="css/RECURSOS/Cotype-Favicon.png">
+    
+</head>
+<body>
+
+    <!-- Menú de navegación -->
+
+    <header class="header">
+
+
+        <div class="header-Menu">
+
+            <div class="header-Menu--wrapper">
+
+                <div class="header-Menu--Hamburguesa">
+                    <button class="header-Menu--Hamburguesa--boton" title="Abrir menú">
+                        <svg class="svg-Hamburguesa" xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-list" viewBox="0 0 16 16">
+                            <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5"/>
+                        </svg>
+                    </button>
+
+                    <nav class="nav">
+                        <button class="nav-cierre" title="Cerrar menú">
+                            <svg class="nav-cierre--cruz" xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-x" viewBox="0 0 16 16">
+                                <path d="M4.646 4.646a.5.5 0 0 1 .708 0L8 7.293l2.646-2.647a.5.5 0 0 1 .708.708L8.707 8l2.647 2.646a.5.5 0 0 1-.708.708L8 8.707l-2.646 2.647a.5.5 0 0 1-.708-.708L7.293 8 4.646 5.354a.5.5 0 0 1 0-.708"/>
+                            </svg>
+                        </button>
+                        
+                        <nav class="nav-ul">
+                            <!-- Enlaces con el atributo title adecuado -->
+                            <a href="index.html" class="links" title="Página principal">Our fonts</a>
+                            <a href="subscribe.html" class="links" title="Suscripción">Subscribe</a>
+                            <a href="about.html" class="links" title="Información sobre nosotros">About Us</a>
+                        
+                        </nav>
+
+                </div>
+
+                <!-- Logo menú -->
+                <h1 class="header-Menu--logo">
+                    <a href="index.html" class="header-Menu--logo-link"><img src="css/RECURSOS/image.avif"  alt="Cotype logo" width="20%"></a>
+                </h1>
+
+                <!-- Carrito -->
+                <button class="header-Menu--checkout" title="Abrir carrito">
+                    <svg class="checkout-cart" xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-cart2" viewBox="0 0 16 16">
+                        <path d="M0 2.5A.5.5 0 0 1 .5 2H2a.5.5 0 0 1 .485.379L2.89 4H14.5a.5.5 0 0 1 .485.621l-1.5 6A.5.5 0 0 1 13 11H4a.5.5 0 0 1-.485-.379L1.61 3H.5a.5.5 0 0 1-.5-.5M3.14 5l1.25 5h8.22l1.25-5zM5 13a1 1 0 1 0 0 2 1 1 0 0 0 0-2m-2 1a2 2 0 1 1 4 0 2 2 0 0 1-4 0m9-1a1 1 0 1 0 0 2 1 1 0 0 0 0-2m-2 1a2 2 0 1 1 4 0 2 2 0 0 1-4 0"/>
+                    </svg>
+                </button>
+
+            </div>
+        </div>
+    </header>
+
+
+     <!-- Sección principal -->
+    <main class="Main">
+        <section class="Main-fixed">
+
+            <div class="Main-wrapper">
+                    <div class="inputs">
+                        <!-- Seclecciona la tipografía -->
+                        <div class="input-seleccion">
+                            <select name="tipografias" id="tipografias-seleccion" class="tipografias-seleccion">
+                                <option value="aeonik_trialregular">Aeonik Pro Regular</option>
+                                <option value="aeonik_triallight_italic">Aeonik Pro Light Italic</option>                                                                
+                                <option value="aeonik_trialregular_italic">Aeonik Pro Regulaar Italic</option>                                
+                                <option value="aeonik_trialbold">Aeonik Pro Bold</option>
+                                <option value="aeonik_trialbold_italic">Aeonik Pro Bold Italic</option>
+                            
+                            </select>
+
+                        </div>
+
+                        <!-- Selecciona el tamaño -->
+                        <div class="input-size">
+                            <h2 class="titulo-input">Font Size</h2>
+                            <input type="range" name="font-size" class="rango font-size" id="font-size" min="10" max="200">
+
+                        </div>
+
+                        <!-- Seclecciona el espacio de caracter -->
+                        <div class="input-leading">
+
+                            <h2 class="titulo-input">Leading</h2>
+                            <input type="range" name="font-leading" id="font-leading" class="rango font-leading" min="1" max="15">
+
+                        </div>
+
+                        <!-- Seclecciona el espacio de línea -->
+                        <div class="input-tracking">
+                            <h2 class="titulo-input">Line Height</h2>
+                            <input type="range" name="font-tracking" id="font-tracking" class="rango font-tracking" min="50" max="200">
+
+                        </div>
+
+                    </div>
+
+                    <!-- Botones para descargar y/o comprar (no funcionan) -->
+                    <div class="botones">
+                        
+                        <a class="trial" href="css/RECURSOS/All-CoType-Trials.zip">Trial Aeonik Fono</a>
+                        
+                    
+
+                        <a class="download" href="css/RECURSOS/All-CoType-Trials.zip">Download Aeonik Fono</a>
+                
+
+                </div>
+                </div>
+
+                <!-- Texto que se introduce y a mostrar -->
+                <div class="Main-texto">
+                    <textarea id="miInput" name="Type something here..." placeholder="Type something here..." class="typeText" autocomplete="off"></textarea>
+                </div>
+        </section>
+    </main>
+
+    <!-- Descripciones de la tipografía -->
+    <div class="contenedora">
+        <div class="contenedora-descripcion">
+            <div class="contenedora-titulo">
+                <h7 class="titulo-lock">
+                    Lock Sans Stencil
+                </h7>
+            </div>
+            <div class="contenedora-texto">
+                <p class="texto">Aeonik is a versatile workhorse type family, crafted with mechanical precision by Mark Bloom and Joe Leadbeater. Conceived as a “neo-grotesque with a geometric skeleton,” it delivers rigidity in its strict perpendicular terminals – most evident in the letters ‘a, ‘t,’ ‘f,’ and ‘j.’ This is offset by the geometric roundness of letters like ‘c,’ ‘e,’  and ‘o,’. The balance between mechanical precision and timeless aesthetics has resonated with designers since its launch in 2021.</p>
+                <p class="texto">The family’s eight weights, ranging from the delicate Air to the commanding Black, are designed to tackle any creative challenge. For even greater control, variable font technology enables precise fine-tuning of weight. Italics are available for all weights (except Aeonik Arabic), and language support can be selected during checkout.</p>
+                <p class="texto">Aeonik’s OpenType features include discretionary ligatures, old-style and tabular numerals, fractions, case-sensitive punctuation, symbols, geometric shapes, circled numerals, and arrows. Its multiple stylistic sets across Latin, Greek, and Cyrillic offer alternate designs for characters such as ‘a,’ ‘t,’ and ‘j.’ Additional numerical alternates make the family fully customizable, ready to meet the demands of any project.</p>
+                <p class="texto">Our best-selling typeface continues to evolve. In 2025, Aeonik expanded its language support to Vietnamese, Arabic, Hebrew, and Thai.</p>
+                
+            </div>
+        </div>
+
+        <!-- Alfabeto de la tipografía -->
+        <div class="contenedora-alfabeto">
+            <div class="contenedora-alfabeto-contenido">
+            
+                <p class="alfabeto-prim fila">
+                    ABCDEFGHIJKLMNO
+                </p>
+                <p class="alfabeto-seg fila">
+                    PQRSTUVWXYZ
+                </p>
+                <p class="alfabeto-ter fila">
+                    abcdefghijklmn
+                </p>
+                <p class="alfabeto-cuar fila">
+                    opqrstuvwxyz
+                </p>
+                <p class="alfabeto-quin fila">
+                    0123456789
+                </p>
+
+            </div>
+        </div>
+
+        <!-- Tipos de tipografía -->
+        <div class="contenedora-tiposdetipografias">
+            <p class="tiposdetipografias extralite">Lite Italic</p>
+            <p class="tiposdetipografias lite">Lite</p>
+            <p class="tiposdetipografias regular">Regular</p>
+            <p class="tiposdetipografias medium">Regular Italic</p>
+            <p class="tiposdetipografias bold">Bold</p>
+            <p class="tiposdetipografias black">Bold Italic</p>
+        </div>
+    </div>
+
+    <!-- Caracteres que aparecen cuando pones el cursor en lo alto de las estáticas -->
+    <div class="Contenedor-caracteres">
+        <h3 class="titulo-caracteres">Aeonik Pro Character Set</h3>
+        <div class="caracteres-grandes">
+            <span class="letras-grandes">A</span>
+            <span class="letras-grandes">B</span>
+            <span class="letras-grandes">C</span>
+            <span class="letras-grandes">D</span>
+            <span class="letras-grandes">E</span>
+            <span class="letras-grandes">F</span>
+            <span class="letras-grandes">G</span>
+            <span class="letras-grandes">H</span>
+            <span class="letras-grandes">I</span>
+            <span class="letras-grandes">J</span>
+            <span class="letras-grandes">K</span>
+            <span class="letras-grandes">L</span>
+            <span class="letras-grandes">M</span>
+            <span class="letras-grandes">N</span>
+            <span class="letras-grandes">O</span>
+            <span class="letras-grandes">P</span>
+            <span class="letras-grandes">Q</span>
+            <span class="letras-grandes">R</span>
+            <span class="letras-grandes">S</span>
+            <span class="letras-grandes">T</span>
+            <span class="letras-grandes">U</span>
+            <span class="letras-grandes">V</span>
+            <span class="letras-grandes">W</span>
+            <span class="letras-grandes">X</span>
+            <span class="letras-grandes">Y</span>
+            <span class="letras-grandes">Z</span>
+            <span class="letras-grandes">a</span>
+            <span class="letras-grandes">b</span>
+            <span class="letras-grandes">c</span>
+            <span class="letras-grandes">d</span>
+            <span class="letras-grandes">e</span>
+            <span class="letras-grandes">f</span>
+            <span class="letras-grandes">g</span>
+            <span class="letras-grandes">h</span>
+            <span class="letras-grandes">i</span>
+            <span class="letras-grandes">j</span>
+            <span class="letras-grandes">k</span>
+            <span class="letras-grandes">l</span>
+            <span class="letras-grandes">m</span>
+            <span class="letras-grandes">n</span>
+            <span class="letras-grandes">o</span>
+            <span class="letras-grandes">p</span>
+            <span class="letras-grandes">q</span>
+            <span class="letras-grandes">r</span>
+            <span class="letras-grandes">s</span>
+            <span class="letras-grandes">t</span>
+            <span class="letras-grandes">u</span>
+            <span class="letras-grandes">v</span>
+            <span class="letras-grandes">w</span>
+            <span class="letras-grandes">x</span>
+            <span class="letras-grandes">y</span>
+            <span class="letras-grandes">z</span>
+            <span class="letras-grandes">1</span>
+            <span class="letras-grandes">2</span>
+            <span class="letras-grandes">3</span>
+            <span class="letras-grandes">4</span>
+            <span class="letras-grandes">5</span>
+            <span class="letras-grandes">6</span>
+            <span class="letras-grandes">7</span>
+            <span class="letras-grandes">8</span>
+            <span class="letras-grandes">9</span>
+            
+        </div>
+
+        <!-- Caracteres estáticos -->
+        <div class="caracteres">
+            <span class="letras">A</span>
+            <span class="letras">B</span>
+            <span class="letras">C</span>
+            <span class="letras">D</span>
+            <span class="letras">E</span>
+            <span class="letras">F</span>
+            <span class="letras">G</span>
+            <span class="letras">H</span>
+            <span class="letras">I</span>
+            <span class="letras">J</span>
+            <span class="letras">K</span>
+            <span class="letras">L</span>
+            <span class="letras">M</span>
+            <span class="letras">N</span>
+            <span class="letras">O</span>
+            <span class="letras">P</span>
+            <span class="letras">Q</span>
+            <span class="letras">R</span>
+            <span class="letras">S</span>
+            <span class="letras">T</span>
+            <span class="letras">U</span>
+            <span class="letras">V</span>
+            <span class="letras">W</span>
+            <span class="letras">X</span>
+            <span class="letras">Y</span>
+            <span class="letras">Z</span>
+            <span class="letras">a</span>
+            <span class="letras">b</span>
+            <span class="letras">c</span>
+            <span class="letras">d</span>
+            <span class="letras">e</span>
+            <span class="letras">f</span>
+            <span class="letras">g</span>
+            <span class="letras">h</span>
+            <span class="letras">i</span>
+            <span class="letras">j</span>
+            <span class="letras">k</span>
+            <span class="letras">l</span>
+            <span class="letras">m</span>
+            <span class="letras">n</span>
+            <span class="letras">o</span>
+            <span class="letras">p</span>
+            <span class="letras">q</span>
+            <span class="letras">r</span>
+            <span class="letras">s</span>
+            <span class="letras">t</span>
+            <span class="letras">u</span>
+            <span class="letras">v</span>
+            <span class="letras">w</span>
+            <span class="letras">x</span>
+            <span class="letras">y</span>
+            <span class="letras">z</span>
+            <span class="letras">1</span>
+            <span class="letras">2</span>
+            <span class="letras">3</span>
+            <span class="letras">4</span>
+            <span class="letras">5</span>
+            <span class="letras">6</span>
+            <span class="letras">7</span>
+            <span class="letras">8</span>
+            <span class="letras">9</span>
+            
+        </div>
+    </div>
+
+    <!-- Contenedora con imágen que me pidió el profesor que añadiese para ver cómo queda la tipo en una imágen -->
+
+    <div class="contenedora-prueba">
+        <div class="prueba-texto">
+            <h4 class="prueba-texto-texto">
+                Everest
+            </h4>
+
+            <section class="prueba-imagen">
+                <picture>
+                    <!-- Etiqueta source para imágenes responsivas -->
+                    <source srcset="css/RECURSOS/everest_.png" media="(min-width: 768px)">
+                    <!-- Imagen por defecto para dispositivos móviles o sin soporte de source -->
+                    <img src="css/RECURSOS/everest_.png" alt="Vista del monte Everest" title="Vista panorámica del monte Everest" loading="lazy">
+                </picture>
+            </section>
+
+            
+            
+        </div>
+    </div>
+
+</body>
+
+    

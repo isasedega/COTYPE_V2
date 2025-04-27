@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <!-- Etiquetas meta necesarias -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Descripción de la página">
+    <meta name="author" content="CoType">
+    <meta name="keywords" content="tipografía, Aeonik, fono, fuentes">
+    <meta name="robots" content="index, follow">
+
+    <!-- Título de la página -->
+    <title>Our Fonts - CoType Foundry</title>
+
+    <!-- Vinculación de la hoja de estilos -->
+    <link rel="stylesheet" href="css/index.css">
+
+    <!-- Favicon -->
+    <link rel="icon" href="css/RECURSOS/Cotype-Favicon.png">
+
+    <!-- Vinculación de JAVA -->
+    <script src="js/index.js" defer></script>
+    
+</head>
+
+
+<body>
+
+    <header class="header">
+
+        <!-- Menú de cabecera -->
+        <div class="header-Menu">
+
+            <div class="header-Menu--wrapper">
+                <!-- Menú hamburguesa para dispositivos móviles -->
+                <div class="header-Menu--Hamburguesa">
+                    <button class="header-Menu--Hamburguesa--boton" title="Abrir menú de navegación">
+                        <svg class="svg-Hamburguesa" xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="black" class="bi bi-Hamburguesa" viewBox="0 0 16 16">
+                            <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5"/>
+                        </svg>
+                    </button>
+                    <!-- Menú de navegación -->
+                    <nav class="nav">
+                        <!-- Botón de cierre del menú -->
+                        <button class="nav-cierre" title="Cerrar menú de navegación">
+                            <svg class="nav-cierre--cruz" xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="black" class="bi bi-cierre" viewBox="0 0 16 16">
+                                <path d="M4.646 4.646a.5.5 0 0 1 .708 0L8 7.293l2.646-2.647a.5.5 0 0 1 .708.708L8.707 8l2.647 2.646a.5.5 0 0 1-.708.708L8 8.707l-2.646 2.647a.5.5 0 0 1-.708-.708L7.293 8 4.646 5.354a.5.5 0 0 1 0-.708"/>
+                            </svg>
+                        </button>
+                        <!-- Lista de navegación -->
+                        <ul class="nav-ul">
+                            <li><a href="index.html" class="links" title="Ir a la página principal">Our fonts</a></li>
+                            <li><a href="subscribe.html" class="links" title="Suscríbete a la newsletter">Suscribe</a></li>
+                            <li><a href="about.html" class="links" title="Conoce más sobre nosotros">About Us</a></li>
+                        </ul>
+                    </nav>
+
+                </div>
+                <!-- Logo del sitio web -->
+                <h1 class="header-Menu--logo">
+                   <a href="index.html" class="header-Menu--logo-link"><img src="css/RECURSOS/image.avif"  alt="Cotype logo" width="20%"></a>
+                </h1>
+                <!-- Botón del carrito de compra -->
+                <button class="header-Menu--checkout">
+                    <svg class="checkout-cart" xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="black" class="bi bi-cart2" viewBox="0 0 16 16">
+                        <path d="M0 2.5A.5.5 0 0 1 .5 2H2a.5.5 0 0 1 .485.379L2.89 4H14.5a.5.5 0 0 1 .485.621l-1.5 6A.5.5 0 0 1 13 11H4a.5.5 0 0 1-.485-.379L1.61 3H.5a.5.5 0 0 1-.5-.5M3.14 5l1.25 5h8.22l1.25-5zM5 13a1 1 0 1 0 0 2 1 1 0 0 0 0-2m-2 1a2 2 0 1 1 4 0 2 2 0 0 1-4 0m9-1a1 1 0 1 0 0 2 1 1 0 0 0 0-2m-2 1a2 2 0 1 1 4 0 2 2 0 0 1-4 0"/>
+                    </svg>
+                </button>
+
+                
+
+
+            </div>
+        </div>
+    </header>
+
+    <!-- Sección Slider -->
+    <div class="Slider">
+        <section class="Slider-container">
+
+                <!-- Imágenes del slider -->
+                <picture>
+                    <img src="css/RECURSOS/banner/01.jpg" alt="Lock Sherif" class="Slider-img isVisible Slider-img--Static" title="banner1">
+                </picture>
+                <picture>
+                    <img src="css/RECURSOS/banner/02.jpg" alt="RM - Mono"   class="Slider-img" loading="lazy" title="banner2">
+                </picture>
+                <picture>
+                    <img src="css/RECURSOS/banner/03.jpg" alt="Aeonik Fono" class="Slider-img" loading="lazy" title="banner3">
+                </picture>
+                <picture>
+                    <img src="css/RECURSOS/banner/04.jpg" alt="Aeonik Mono" class="Slider-img" loading="lazy" title="banner4">
+                </picture>
+                <picture>
+                    <img src="css/RECURSOS/banner/05.jpg" alt="Altform"     class="Slider-img" loading="lazy" title="banner5">
+                </picture>        
+                
+               
+                
+            
+        </section>
+
+        <!-- Botones de navegación del slider (añadido el tittle) -->
+        <button class="Slider-arrow Next" title="Siguiente imagen">
+            <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="black" class="bi bi-chevron-right" viewBox="0 0 16 16">
+                <path fill-rule="evenodd" d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708"/>
+            </svg>
+        </button>
+
+        <button class="Slider-arrow Prev" title="Imagen anterior">
+            <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="black" class="bi bi-chevron-left" viewBox="0 0 16 16">
+                <path fill-rule="evenodd" d="M11.354 1.646a.5.5 0 0 1 0 .708L5.707 8l5.647 5.646a.5.5 0 0 1-.708.708l-6-6a.5.5 0 0 1 0-.708l6-6a.5.5 0 0 1 .708 0"/>
+            </svg>
+        </button>
+
+        <!-- Indicador del slider -->
+        <div class="Slider-indice">
+            <span class="Slider-span Slider-span--Inicial">1</span> /
+            <span class="Slider-span">5</span>
+        </div>
+
+    </div>
+
+    <!-- Sección de control de tipografía -->
+    <div class="Subbanner">
+        <div class="Subbanner-wrapper">
+            <!-- Control de espaciado del texto -->
+            <div class="Subbaner-wrapper--tracking">
+                <button class="Subbanner-tracking" title="Ajusta el tracking del texto">Tracking</button>
+                <input type="range" id="tracking" name="tracking-tipo" class="tamano-tipo" min="0" max="10">
+            </div>
+             <!-- Campo de texto -->
+            <div class="Subbanner-wrapper--type">
+                <input type="text" id="miInput" name="Type something here..." placeholder="Type something here..." class="typeText" autocomplete="off">
+            </div>
+            <!-- Control de tamaño de fuente -->
+            <div class="Subbaner-wrapper--size">
+                <button class="Subbanner-size Min" title="Reducir tamaño de la fuente">A</button>
+                <input type="range" id="rango" name="tamano-tipo" class="tamano-tipo" min="12" max="300">
+                <button class="Subbanner-size Max" title="Aumentar tamaño de la fuente">A</button>
+                
+            </div>
+        </div>
+    </div>
+
+    <!-- Sección de control de tipografía en móvil -->
+    <div class="Subbanner-movil">
+        <div class="Subbanner-wrapper--type--movil">
+            <input type="text" id="miInput movil" name="Type something here..." placeholder="Type something here..." class="typeText" autocomplete="off">
+        </div>
+        <div class="Subbaner-wrapper--size--movil">
+            <button class="Subbanner-size Min">A</button>
+            <input type="range" name="tamano-tipo" class="tamano-tipo-movil" list="tickmarks" min="20" max="100">
+            <button class="Subbanner-size Max">A</button>
+
+    </div>
+
+
+
+    <!-- Sección de tipografías -->
+    <div class="Cuerpo">
+        <div class="Cuerpo-tipografias">
+
+            <!-- Tipografía Lock Serif Stencil -->
+            <div class="Lock-serif--Stencil">
+                <ul class="Caracteristicas">
+                    <li class="new">
+                        <a href="locksherifstencil.html">NEW</a>
+                    </li>
+                    <li class="nombre-tipografia">
+                        <a href="locksherifstencil.html">Lock Serif Stencil</a>
+                    </li>
+                    <li class="estilos">
+                        <a href="locksherifstencil.html">6 Styles from 45€</a>
+                    </li>
+                </ul>
+
+                <p class="P-Lock--Stencil output">
+                    <a href="locksherifstencil.html">
+                    Lock Serif Stencil
+                    </a>
+                    
+                </p>
+
+                <div class="Lockserif-botones">
+                    <div class="Boton-try">
+                        <a class="try" href="css/RECURSOS/FUENTES/LockSerif-TRIAL/LockSerif-TRIAL/LockSerifTRIAL-Medium.otf">Try</a>
+                    </div>
+                    <div class="Boton-Download">
+                        <a class="Download" href="css/RECURSOS/FUENTES/LockSerif-TRIAL/LockSerif-TRIAL/LockSerifTRIAL-Medium.otf">Download</a>
+                    </div>
+                    
+                    
+                </div>
+            </div>
+
+            <!-- Tipografía Lock Sans -->
+            <div class="Lock-sans">
+                <ul class="Caracteristicas">
+                    <li class="new">
+                        <a title="locksans" href="locksans.html">NEW</a>
+                    </li>
+                    <li class="nombre-tipografia">
+                        <a title="locksans" href="locksans.html">Lock Sans</a>
+                    </li>
+                    <li class="estilos">
+                        <a title="locksans" href="locksans.html">6 Styles from 45€</a>
+                    </li>
+                </ul>
+
+                <p class="P-Lock--sans output"> 
+                    <a title="locksans" href="locksans.html">
+                        Lock Sans
+                    </a>
+                    
+                </p>
+
+                <div class="Lockserif-botones">
+                    <div class="Boton-try">
+                        <a class="try" href="locksans.html">Try</a>
+                    </div>
+                    <div class="Boton-Download">
+                        <a class="Download" href="locksans.html">Download</a>
+                    </div>
+                    
+                    
+                </div>
+
+
+                
+            </div>          
+
+            <!-- Tipografía Aeonik -->
+            <div class="Aeonik">
+                <ul class="Caracteristicas">
+                    <li class="nombre-tipografia">
+                        <a title="aeonikpro" href="aeonicpro.html">Aeonik Pro</a>
+                    </li>
+                    <li class="estilos">
+                        <a title="aeonikpro" href="aeonicpro.html">Supports Greek & Cyrilic <br> 16 Styles from 45€</a>
+                    </li>
+                </ul>
+
+                <p class="P-Aeonik output">
+                    <a title="aeonikpro" href="aeonicpro.html">
+                        Aeonik Pro
+
+                    </a>
+                    
+                </p>
+
+                <div class="Lockserif-botones">
+                    <div class="Boton-try">
+                        <a class="try" title="aeonikpro" href="aeonicpro.html">Try</a>
+                    </div>
+                    <div class="Boton-Download">
+                        <a class="Download" title="aeonikpro" href="aeonicpro.html">Download</a>
+                    </div>
+                    
+                    
+                </div>
+            </div>
+
+            <!-- Tipografía Aeonik Fono -->
+            <div class="Aeonik-Fono">
+                <ul class="Caracteristicas">
+                    <li class="nombre-tipografia">
+                        <a title="aeonikfono" href="aeonicfono.html">Aeonik Fono</a>
+                    </li>
+                    <li class="estilos">
+                        <a title="aeonikfono" href="aeonicfono.html">8 Styles from 45€</a>
+                    </li>
+                </ul>
+
+                <p class="P-Aeonik--Fono output">
+                    <a title="aeonikfono" href="aeonicfono.html">
+                        Aeonik Fono
+                    </a>
+                </p>
+
+                <div class="Lockserif-botones">
+                    <div class="Boton-try">
+                        <a class="try" title="try" href="aeonicfono.html">Try</a>
+                    </div>
+                    <div class="Boton-Download">
+                        <a class="Download" title="downloa" href="aeonicfono.html">Download</a>
+                    </div>
+                    
+                    
+                </div>
+            </div>
+
+            
+
+            
+        </div>
+    </div>
+
+    <!-- Pie de página -->
+    <footer class="pie">
+        <div class="backtotop">
+           <a class="back" href="index.html">Back to top</a>
+            <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="black" class="bi bi-arrow-up-short" viewBox="0 0 16 16">
+                <path fill-rule="evenodd" d="M8 12a.5.5 0 0 0 .5-.5V5.707l2.146 2.147a.5.5 0 0 0 .708-.708l-3-3a.5.5 0 0 0-.708 0l-3 3a.5.5 0 1 0 .708.708L7.5 5.707V11.5a.5.5 0 0 0 .5.5"/>
+              </svg>
+        </div>
+        <div class="mail">
+            <a href="mailto:info@cotypefoundry.com">info@cotypefoundry.com</a>
+        </div>
+    </footer>
+    
+</body>
+</html>

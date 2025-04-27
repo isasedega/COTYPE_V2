@@ -1,0 +1,1438 @@
+/* Reset / Normmalizador */
+*{
+    margin:0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+    background-color: transparent;
+    
+}
+
+/* TIPOGRAFÍAS */
+@font-face {
+    font-family: 'aeonik_trialbold';
+    src: url('FUENTES/aeoniktrial-bold-webfont.woff2') format('woff2'),
+         url('FUENTES/aeoniktrial-bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'aeonik_trialbold_italic';
+    src: url('FUENTES/aeoniktrial-bolditalic-webfont.woff2') format('woff2'),
+         url('FUENTES/aeoniktrial-bolditalic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'aeonik_triallight';
+    src: url('FUENTES/aeoniktrial-light-webfont.woff2') format('woff2'),
+         url('FUENTES/aeoniktrial-light-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'aeonik_triallight_italic';
+    src: url('FUENTES/aeoniktrial-lightitalic-webfont.woff2') format('woff2'),
+         url('FUENTES/aeoniktrial-lightitalic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'aeonik_trialregular';
+    src: url('FUENTES/aeoniktrial-regular-webfont.woff2') format('woff2'),
+         url('FUENTES/aeoniktrial-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'aeonik_trialregular_italic';
+    src: url('FUENTES/aeoniktrial-regularitalic-webfont.woff2') format('woff2'),
+         url('FUENTES/aeoniktrial-regularitalic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'aeonik_pro_trialbold';
+    src: url('FUENTES/aeonikprotrial-bold-webfont.woff2') format('woff2'),
+         url('FUENTES/aeonikprotrial-bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'aeonik_pro_trialbold_italic';
+    src: url('FUENTES/aeonikprotrial-bolditalic-webfont.woff2') format('woff2'),
+         url('FUENTES/aeonikprotrial-bolditalic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'aeonik_pro_triallight';
+    src: url('FUENTES/aeonikprotrial-light-webfont.woff2') format('woff2'),
+         url('FUENTES/aeonikprotrial-light-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'aeonik_pro_triallight_italic';
+    src: url('FUENTES/aeonikprotrial-lightitalic-webfont.woff2') format('woff2'),
+         url('FUENTES/aeonikprotrial-lightitalic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'aeonik_pro_trialregular';
+    src: url('FUENTES/aeonikprotrial-regular-webfont.woff2') format('woff2'),
+         url('FUENTES/aeonikprotrial-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'aeonik_pro_trialRgIt';
+    src: url('FUENTES/aeonikprotrial-regularitalic-webfont.woff2') format('woff2'),
+         url('FUENTES/aeonikprotrial-regularitalic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'aeonik_fono_trialbold';
+    src: url('FUENTES/aeonikfonotrial-bold-webfont.woff2') format('woff2'),
+         url('FUENTES/aeonikfonotrial-bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'aeonik_fono_trialregular';
+    src: url('FUENTES/aeonikfonotrial-regular-webfont.woff2') format('woff2'),
+         url('FUENTES/aeonikfonotrial-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'altform_trialbold';
+    src: url('FUENTES/altformtrial-bold-webfont.woff2') format('woff2'),
+         url('FUENTES/altformtrial-bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'altform_trialbold_italic';
+    src: url('FUENTES/altformtrial-bolditalic-webfont.woff2') format('woff2'),
+         url('FUENTES/altformtrial-bolditalic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'altform_triallight';
+    src: url('FUENTES/altformtrial-light-webfont.woff2') format('woff2'),
+         url('FUENTES/altformtrial-light-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'altform_triallight_italic';
+    src: url('FUENTES/altformtrial-lightitalic-webfont.woff2') format('woff2'),
+         url('FUENTES/altformtrial-lightitalic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'altform_trialregular_italic';
+    src: url('FUENTES/altformtrial-regularitalic-webfont.woff2') format('woff2'),
+         url('FUENTES/altformtrial-regularitalic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'coanda_trialbold';
+    src: url('FUENTES/coandatrial-bold-webfont.woff2') format('woff2'),
+         url('FUENTES/coandatrial-bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'coanda_triallight';
+    src: url('FUENTES/coandatrial-light-webfont.woff2') format('woff2'),
+         url('FUENTES/coandatrial-light-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'coanda_trialregular';
+    src: url('FUENTES/coandatrial-regular-webfont.woff2') format('woff2'),
+         url('FUENTES/coandatrial-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'ambit_trialbold';
+    src: url('FUENTES/ambittrial-bold-webfont.woff2') format('woff2'),
+         url('FUENTES/ambittrial-bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'ambit_trialbold_italic';
+    src: url('FUENTES/ambittrial-bolditalic-webfont.woff2') format('woff2'),
+         url('FUENTES/ambittrial-bolditalic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'ambit_trialitalic';
+    src: url('FUENTES/ambittrial-italic-webfont.woff2') format('woff2'),
+         url('FUENTES/ambittrial-italic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'ambit_triallight';
+    src: url('FUENTES/ambittrial-light-webfont.woff2') format('woff2'),
+         url('FUENTES/ambittrial-light-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'ambit_triallight_italic';
+    src: url('FUENTES/ambittrial-lightitalic-webfont.woff2') format('woff2'),
+         url('FUENTES/ambittrial-lightitalic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'ambit_trialregular';
+    src: url('FUENTES/ambittrial-regular-webfont.woff2') format('woff2'),
+         url('FUENTES/ambittrial-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'rm_mono_triallight';
+    src: url('FUENTES/rmmonotrial-light-webfont.woff2') format('woff2'),
+         url('FUENTES/rmmonotrial-light-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'rm_mono_trialregular';
+    src: url('FUENTES/rmmonotrial-regular-webfont.woff2') format('woff2'),
+         url('FUENTES/rmmonotrial-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'lock_sans_stencil_trialblack';
+    src: url('FUENTES/locksansstenciltrial-black-webfont.woff2') format('woff2'),
+         url('FUENTES/locksansstenciltrial-black-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'lock_sans_stencil_trialbold';
+    src: url('FUENTES/locksansstenciltrial-bold-webfont.woff2') format('woff2'),
+         url('FUENTES/locksansstenciltrial-bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'lock_sans_stencil_trialXLt';
+    src: url('FUENTES/locksansstenciltrial-extralight-webfont.woff2') format('woff2'),
+         url('FUENTES/locksansstenciltrial-extralight-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'lock_sans_stencil_triallight';
+    src: url('FUENTES/locksansstenciltrial-light-webfont.woff2') format('woff2'),
+         url('FUENTES/locksansstenciltrial-light-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'lock_sans_stencil_trialmedium';
+    src: url('FUENTES/locksansstenciltrial-medium-webfont.woff2') format('woff2'),
+         url('FUENTES/locksansstenciltrial-medium-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'lock_sans_stencil_trialRg';
+    src: url('FUENTES/locksansstenciltrial-regular-webfont.woff2') format('woff2'),
+         url('FUENTES/locksansstenciltrial-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'lock_sans_trialblack';
+    src: url('FUENTES/locksanstrial-black-webfont.woff2') format('woff2'),
+         url('FUENTES/locksanstrial-black-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'lock_sans_trialbold';
+    src: url('FUENTES/locksanstrial-bold-webfont.woff2') format('woff2'),
+         url('FUENTES/locksanstrial-bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'lock_sans_trialextralight';
+    src: url('FUENTES/locksanstrial-extralight-webfont.woff2') format('woff2'),
+         url('FUENTES/locksanstrial-extralight-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'lock_sans_triallight';
+    src: url('FUENTES/locksanstrial-light-webfont.woff2') format('woff2'),
+         url('FUENTES/locksanstrial-light-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'lock_sans_trialmedium';
+    src: url('FUENTES/locksanstrial-medium-webfont.woff2') format('woff2'),
+         url('FUENTES/locksanstrial-medium-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'lock_sans_trialregular';
+    src: url('FUENTES/locksanstrial-regular-webfont.woff2') format('woff2'),
+         url('FUENTES/locksanstrial-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'lock_serif_stencil_trialblack';
+    src: url('FUENTES/lockserifstenciltrial-black-webfont.woff2') format('woff2'),
+         url('FUENTES/lockserifstenciltrial-black-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'lock_serif_stencil_trialbold';
+    src: url('FUENTES/lockserifstenciltrial-bold-webfont.woff2') format('woff2'),
+         url('FUENTES/lockserifstenciltrial-bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'lock_serif_stencil_trialXLt';
+    src: url('FUENTES/lockserifstenciltrial-extralight-webfont.woff2') format('woff2'),
+         url('FUENTES/lockserifstenciltrial-extralight-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'lock_serif_stencil_triallight';
+    src: url('FUENTES/lockserifstenciltrial-light-webfont.woff2') format('woff2'),
+         url('FUENTES/lockserifstenciltrial-light-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'lock_serif_stencil_trialMd';
+    src: url('FUENTES/lockserifstenciltrial-medium-webfont.woff2') format('woff2'),
+         url('FUENTES/lockserifstenciltrial-medium-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'lock_serif_stencil_trialRg';
+    src: url('FUENTES/lockserifstenciltrial-regular-webfont.woff2') format('woff2'),
+         url('FUENTES/lockserifstenciltrial-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'lock_serif_trialblack';
+    src: url('FUENTES/lockseriftrial-black-webfont.woff2') format('woff2'),
+         url('FUENTES/lockseriftrial-black-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'lock_serif_trialbold';
+    src: url('FUENTES/lockseriftrial-bold-webfont.woff2') format('woff2'),
+         url('FUENTES/lockseriftrial-bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'lock_serif_trialextralight';
+    src: url('FUENTES/lockseriftrial-extralight-webfont.woff2') format('woff2'),
+         url('FUENTES/lockseriftrial-extralight-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'lock_serif_triallight';
+    src: url('FUENTES/lockseriftrial-light-webfont.woff2') format('woff2'),
+         url('FUENTES/lockseriftrial-light-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'lock_serif_trialmedium';
+    src: url('FUENTES/lockseriftrial-medium-webfont.woff2') format('woff2'),
+         url('FUENTES/lockseriftrial-medium-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'lock_serif_trialregular';
+    src: url('FUENTES/lockseriftrial-regular-webfont.woff2') format('woff2'),
+         url('FUENTES/lockseriftrial-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'orbikular_trialbold';
+    src: url('FUENTES/orbikulartrial-bold-webfont.woff2') format('woff2'),
+         url('FUENTES/orbikulartrial-bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'orbikular_trialbold_italic';
+    src: url('FUENTES/orbikulartrial-bolditalic-webfont.woff2') format('woff2'),
+         url('FUENTES/orbikulartrial-bolditalic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'orbikular_trialitalic';
+    src: url('FUENTES/orbikulartrial-italic-webfont.woff2') format('woff2'),
+         url('FUENTES/orbikulartrial-italic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'orbikular_triallight';
+    src: url('FUENTES/orbikulartrial-light-webfont.woff2') format('woff2'),
+         url('FUENTES/orbikulartrial-light-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'orbikular_triallight_italic';
+    src: url('FUENTES/orbikulartrial-lightitalic-webfont.woff2') format('woff2'),
+         url('FUENTES/orbikulartrial-lightitalic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'orbikular_trialregular';
+    src: url('FUENTES/orbikulartrial-regular-webfont.woff2') format('woff2'),
+         url('FUENTES/orbikulartrial-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'rm_neue_trialbold';
+    src: url('FUENTES/rmneuetrial-bold-webfont.woff2') format('woff2'),
+         url('FUENTES/rmneuetrial-bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'rm_neue_trialbold_italic';
+    src: url('FUENTES/rmneuetrial-bolditalic-webfont.woff2') format('woff2'),
+         url('FUENTES/rmneuetrial-bolditalic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'rm_neue_trialitalic';
+    src: url('FUENTES/rmneuetrial-italic-webfont.woff2') format('woff2'),
+         url('FUENTES/rmneuetrial-italic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'rm_neue_triallight';
+    src: url('FUENTES/rmneuetrial-light-webfont.woff2') format('woff2'),
+         url('FUENTES/rmneuetrial-light-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'rm_neue_triallight_italic';
+    src: url('FUENTES/rmneuetrial-lightitalic-webfont.woff2') format('woff2'),
+         url('FUENTES/rmneuetrial-lightitalic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'rm_neue_trialregular';
+    src: url('FUENTES/rmneuetrial-regular-webfont.woff2') format('woff2'),
+         url('FUENTES/rmneuetrial-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'scandium_trialbold';
+    src: url('FUENTES/scandiumtrial-bold-webfont.woff2') format('woff2'),
+         url('FUENTES/scandiumtrial-bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'scandium_trialbold_italic';
+    src: url('FUENTES/scandiumtrial-bolditalic-webfont.woff2') format('woff2'),
+         url('FUENTES/scandiumtrial-bolditalic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'scandium_triallight';
+    src: url('FUENTES/scandiumtrial-light-webfont.woff2') format('woff2'),
+         url('FUENTES/scandiumtrial-light-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'scandium_triallight_italic';
+    src: url('FUENTES/scandiumtrial-lightitalic-webfont.woff2') format('woff2'),
+         url('FUENTES/scandiumtrial-lightitalic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'scandium_trialregular';
+    src: url('FUENTES/scandiumtrial-regular-webfont.woff2') format('woff2'),
+         url('FUENTES/scandiumtrial-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'scandium_trialregular_italic';
+    src: url('FUENTES/scandiumtrial-regularitalic-webfont.woff2') format('woff2'),
+         url('FUENTES/scandiumtrial-regularitalic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+/* ESTILOS GENERALES */
+
+/* Eliminar los puntos de lista de las etiquetas <li> */
+li{
+    list-style: none;
+}
+
+/* Enlaces configurados como bloques, heredando color y sin subrayado */
+a{
+    display: block;
+    color: inherit;
+    text-decoration: none;
+}
+
+/* Establecer el estilo de los enlaces dentro de un párrafo para que se comporten como elementos en línea */
+p a{
+    display: inline;
+}
+
+/* Estilo para los SVG, heredando el color actual de su contenedor */
+svg{
+    fill: currentColor;
+}
+
+/* Definir la raíz con un tamaño de fuente del 100% y comportamiento de desplazamiento suave */
+:root{
+    font-size: 100%;
+    scroll-behavior: smooth;
+}
+
+/* Configuración general para el <main> */
+main{
+
+    
+
+    hyphens: none;
+}
+
+
+
+
+/* Estilo del encabezado principal */
+.header-Menu{
+    background-color: white;
+    width: 100%;
+    padding: 1rem 4rem;
+    z-index: 2;
+    position: fixed;
+    top: 0;
+}
+
+
+
+
+/* Wrapper para el menú de navegación, utiliza flexbox */
+.header-Menu--wrapper{
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+/* Estilo para el botón de checkout */
+.header-Menu--checkout{
+    margin-left: -40rem;
+    cursor: pointer;
+}
+@media (max-width: 900px){
+    .checkout-cart{
+        width: 300%;
+    }
+    
+}
+
+/* Estilos para los enlaces */
+.links{
+    font-family: 'aeonik_trialregular';
+    font-size: 16px;
+    color: rgb(209, 209, 209);
+    margin-top: 9px;
+}
+
+/* Cambiar el color de los enlaces al pasar el ratón */
+.links:hover{
+    color: white;
+}
+
+/* Estilo para el menú de navegación lateral */
+.nav{
+    width: 20%;
+    height: 100vh;
+    background-color: rgb(41, 41, 41);
+    position: fixed ;
+    left: 0;
+    padding: 2rem 10rem 3rem 3rem;
+    top: 0;
+    z-index: 2;
+
+    /* display: none; */
+    transform: translateX(-800px);
+    transition: all .7s ease-out;
+}
+
+
+/* Cuando la clase 'activo' se agrega al menú lateral, se muestra */
+.nav.activo{
+    /*display: block;*/
+    transform: translateX(0);
+    
+    
+}
+
+
+
+/* Estilo para el botón de hamburguesa */
+.header-Menu--Hamburguesa--boton{
+    cursor: pointer;
+}
+
+/* Ajustes para pantallas con un ancho máximo de 900px */
+@media (max-width: 900px){
+    .header-Menu--Hamburguesa{
+        margin: 0 3rem 0 -2rem ;
+    }
+    
+}
+
+
+/* Ajustes para pantallas con un ancho máximo de 900px */
+@media (max-width: 900px){
+    .nav{
+        width: 100%;
+    }
+    
+}
+
+/* Estilo para el botón de cierre del menú */
+.nav-cierre{
+    margin-bottom: 5rem;
+    cursor: pointer;
+    color: white;
+}
+
+/* Estilo general del cuerpo de la página */
+body{
+    background-color: rgb(228, 228, 228);
+    font-family: 'Lock-Stencil-Regular'
+}
+
+/* Estilo principal para el contenedor */
+.Main{
+    width: 90%;
+    height: 100vh;
+    padding-top: 10rem;
+    margin: auto;
+    
+    
+}
+
+
+
+
+/* Wrapper para la sección principal */
+.Main-wrapper{
+    display: flex;
+    flex-flow: row;
+    justify-content: space-between;
+    margin-bottom: 10rem;
+    
+}
+
+/* Estilos responsive para pantallas más pequeñas */
+@media (max-width: 1200px){
+    .Main-wrapper{
+        flex-flow: column;
+    }
+    
+}
+
+/* Estilo para los campos de entrada (inputs) */
+.inputs{
+    display: flex;
+    flex-flow: row;
+    gap: 2rem;
+}
+
+
+/* Estilos responsive para pantallas más pequeñas */
+@media (max-width: 700px){
+    .inputs{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+    
+}
+
+/* Estilos para las cabeceras <h2> */
+h2{
+    font-family: 'aeonik_trialregular';
+    font-size: 13px ;
+    font-weight: 300;
+
+}
+
+/* Estilo del control deslizante */
+.rango{
+    -webkit-appearance: none;
+    appearance: none;
+    height: 2px;
+    color: white;
+    background: black;
+    outline: none;
+    cursor: pointer;
+}
+
+/* Estilo de los botones dentro de la sección principal */
+.botones{
+    display: flex;
+    flex-flow: row;
+    gap: 1.5rem;
+}
+
+/* Estilos responsive para los botones */
+@media (max-width: 1200px){
+    .botones{
+        margin-top: 3rem;
+    }
+    
+}
+
+/* Estilos para el botón de "Trial" */
+.trial{
+    border: solid 1px black;
+    padding: .8rem 3rem;
+    font-family: 'aeonik_trialregular';
+}
+
+/* Estilos para el botón de "Download" */
+.download{
+    background-color: black;
+    padding: .8rem 2rem;
+    color: white;
+    border: 1px solid black;
+    font-family: 'aeonik_trialregular';
+}
+
+/* Estilos para la sección de texto principal */
+.Main-texto{
+    width: 90%;
+    margin: auto;
+}
+
+/* Estilos para pantallas con un ancho máximo de 1200px */
+@media (max-width: 1200px){
+    .Main-texto{
+       min-height: 50vh;
+    }
+    
+}
+
+/* Estilos para el campo de texto */
+.typeText{
+    width: 100%;
+    min-height: 40vh;
+    margin: auto;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    font-family: 'lock_sans_trialregular';
+    font-size: 100px;
+
+    overflow: hidden;
+}
+
+/* Estilo para los placeholders */
+input::placeholder{
+    color: rgb(52, 52, 52);
+}
+
+/* Ajustes para pantallas pequeñas */
+@media (max-width: 1200px){
+    .typeText{
+        
+        font-size: 50px;
+    }
+    
+}
+
+/* Estilo para la contenedora */
+.contenedora{
+    width: 100%;
+    background-color: black;
+    margin: auto;
+
+}
+
+/* Estilo para la contenedora de la descripción */
+.contenedora-descripcion{
+    width: 80%;
+    min-height: 100vh;
+    margin: auto;
+    color: white;
+    display: flex;
+    flex-flow: row;
+    align-items: center;
+    
+}
+
+/* Ajustes para pantallas más pequeñas */
+@media (max-width: 1200px){
+    .contenedora-descripcion{
+        width: 100%;
+        flex-flow: column;
+        margin-top: 25rem;
+        background-color: black;
+
+    }
+    
+}
+
+/* Estilo para el título dentro de la contenedora */
+.contenedora-titulo{
+    width: 50%;
+    margin-top: -28rem;
+
+}
+
+/* Ajustes para pantallas más pequeñas */
+@media (max-width: 1200px){
+    .contenedora-titulo{
+        width: 90%;
+        margin: 8rem 0 4rem 0;
+
+    }
+    
+}
+
+/* Estilo para el texto dentro de la contenedora */
+.contenedora-texto{
+    width: 50%;
+    font-family: 'lock_sans_trialregular';
+    line-height: 1.4;
+
+}
+
+/* Ajustes para pantallas más pequeñas */
+@media (max-width: 1200px){
+    .contenedora-texto{
+        width: 90%;
+
+    }
+    
+}
+
+/* Estilos para el título principal */
+.titulo-lock{
+    font-family: 'lock_sans_trialregular';
+    font-size: 42px;
+    
+}
+
+/* Estilo para la contenedora del alfabeto */
+.contenedora-alfabeto{
+    min-height: 80vh;
+    margin: calc(80vh / 2) auto;
+}
+
+/* Estilos para las filas de letras */
+.fila{
+    color: white;
+    font-family: 'lock_sans_trialregular';
+    font-size: 100px;
+    text-align: center;
+}
+
+/* Ajustes para pantallas pequeñas */
+@media (max-width: 1200px){
+    .fila{
+        font-size: 45px;
+    }
+    
+}
+
+/* Estilo para la contenedora de los tipos de tipografía */
+.contenedora-tiposdetipografias{
+    height: 100vh;
+    color: white;
+    background-color: black;
+    font-size: 95px;
+    text-align: center;
+    margin: auto;
+}
+
+/* Ajustes para pantallas pequeñas */
+@media (max-width: 1200px){
+    .contenedora-tiposdetipografias{
+        margin-top: -30rem;
+        height: 70vh;
+        font-size: 45px;
+    }
+    
+}
+
+/* Estilos para las diferentes tipografías */
+.extralite{
+    font-family: 'lock_sans_trialextralight';
+
+}
+
+.lite{
+    font-family: 'lock_sans_triallight';
+
+}
+.regular{
+    font-family: 'lock_sans_trialregular';
+}
+.medium{
+    font-family: 'lock_sans_trialmedium';
+}
+.bold{
+    font-family: 'lock_sans_trialbold';
+}
+.black{
+    font-family: 'lock_sans_trialblack';
+}
+
+/* Estilos para las celdas de caracteres */
+.caracteres{
+    width: 75%;
+    margin: 5rem auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    border: solid 1px black;
+    border-bottom: 0;
+    border-right: 0;
+    overflow: hidden;
+    
+
+}
+/* Ajustes para pantallas más grandes */
+@media (max-width: 1500px){
+    .caracteres{
+        width: 80%;
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+        overflow: hidden;
+    }
+    
+}
+
+
+/* Ajustes para pantallas más pequeñas */
+@media (max-width: 1200px){
+    .caracteres{
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+        overflow: hidden;
+    }
+    
+}
+
+@media (max-width: 900px){
+    .caracteres{
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+        overflow: hidden;
+    }
+    
+}
+
+@media (max-width: 700px){
+    .caracteres{
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+        overflow: hidden;
+    }
+    
+}
+
+@media (max-width: 600px){
+    .caracteres{
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+        overflow: hidden;
+    }
+    
+}
+
+/* Estilo de las letras dentro de las celdas */
+.letras{
+    width: 60px;
+    height: 60px;
+    padding-top: 1rem;
+    font-family: 'lock_sans_trialregular';
+    font-size: 30px;
+    text-align: center;
+    border-right: 1px solid black;
+    border-bottom: 1px solid black;
+    
+}
+
+/* Estilo para los títulos de tipo h3 */
+h3{
+    margin-top: 7rem;
+    font-family: 'lock_sans_trialregular';
+    font-weight: 100;
+    font-size: 15px;
+    text-align: center;
+}
+
+/* Estilo de los caracteres grandes que se muestran cuando están visibles */
+.caracteres-grandes{
+    width: 300px;
+    height: 300px;
+    top: -300px;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.447);
+    opacity: 0;
+
+    position: fixed;
+    pointer-events: none;
+    transition: opacity .5s ease;
+}
+
+/* Ajustes para pantallas pequeñas */
+@media (max-width: 900px){
+    .caracteres-grandes{
+        width: 250px;
+        height: 250px;
+    }
+    
+}
+
+
+.letras-grandes{
+
+    margin: auto 2.5rem;
+    font-family: 'lock_sans_trialregular';
+    font-size: 300px;
+    color: white;
+    position: absolute;
+    opacity: 0;
+}
+
+@media (max-width: 900px){
+    .letras-grandes{
+        font-size: 250px;
+    }
+    
+}
+
+
+
+.isVisible{
+    opacity: 1;
+}
+
+.contenedora-prueba{
+    position: relative;
+}
+
+/* Para que no se salga de la página */
+.prueba-imagen{
+    overflow: hidden;
+}
+
+
+/* Para que este dentro de la imágen de Everest */
+h4{
+    margin-top: 50rem;
+    margin-bottom: -40rem;
+    position: sticky;
+    font-family: 'aeonik_fono_trialregular';
+    font-size: 220px;
+    text-align: center;
+    z-index: 1;
+
+}
+
+@media (max-width: 1200px){
+    h4{
+        display: none;
+        
+    
+    }
+    
+}
